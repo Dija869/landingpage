@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+}
+
+.para1{
+    color: gray;
+    margin-top: 10px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    /* line-break: auto; */
+}
+
+.btn-nav:hover{
+    background-color: orangered;
+    color:white;
+}
+.card-employee:hover{
+background-color: orangered;
+color: white;
+}
+
+/* footer */
+footer .row {
+    margin-right: 0 !important;
+}
+
+.footer-row {
+    padding: 85px 0;
+    background-color: #27262c;
+    color: #75737f;
+}
+
+.footer-col-1 h4::after,
+.footer-col-2 h4::after,
+.footer-col-3 h4::after,
+.footer-col-4 h4::after {
+    content: '';
+    display: block;
+    width: 46px;
+    height: 1px;
+    margin: 22px 0 40px;
+    background: #fa6f1c;
+}
+
+.btn-outline-secondary {
+    background-color: #fa6f1c !important;
+}
+
+.form-control,
+.btn-outline-secondary {
+    border-radius: 0 !important;
+}
+
+.footer-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-a a {
+    color: #75737f;
+    font-size: 14px;
+}
+
+.footer-a a:hover {
+    transform: scaleX(0.9);
+    color: var(--primary-color);
+}
+
+.footer-privacy {
+    padding: 15px 50px;
+    background: #222126;
+    color: #75737f;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icon a {
+    color: #75737f;
+    font-size: 18px;
+    margin-left: 20px;
+}
